@@ -1,221 +1,465 @@
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" >
-  <meta name="viewport" content="width=device-width, initial-scale=1" >
-  <title>Neurologie & Psychiatrie Duisburg – Dr. Özgür Emir Altuncevahir | Praxis & Jobs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="Neurologisch-psychiatrische Praxis in Duisburg – Behandlung von Depression, Parkinson, Epilepsie, Facharzt für Psychiatrie, Psychiatrie Stellenangebote. Jetzt informieren und bewerben!" >
-  <meta name="keywords" content="Neurologie Duisburg, Psychiatrie Duisburg, Dr. Özgür Emir Altuncevahir, Emir-Altuncevahir, Dr. Emir,Parkinson Behandlung, Depression Hilfe, EEG Duisburg, Psychiatrie Jobs, Stellenangebote Neurologie, Psychiatrie Job Duisburg, MFA Job Duisburg, Arztpraxis Job" >
-  <meta name="robots" content="index, follow" >
-  <meta name="google-site-verification" content="wPBLNt_eBxxV8X5c8X1_zSFLOiubaeKDG5broxtYmZs" >
+  <title>Neurologie & Psychiatrie Duisburg | Praxis Özgür Emir Altuncevahir</title>
 
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" >
-  <link rel="canonical" href="https://www.praxisemir.de/" >
+  <meta name="description"
+        content="Praxis für Neurologie und Psychiatrie in Duisburg: neurologische und psychiatrische Diagnostik und Behandlung, EEG, EMG, evozierte Potentiale, Ultraschall sowie ästhetische Medizin mit Botulinumtoxin und Hyaluronsäure.">
 
-  <!-- MedicalBusiness Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "Praxis Özgür Emir Altuncevahir für Neurologie & Psychiatrie",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Kaiser-Friedrich-Straße 39",
-    "addressLocality": "Duisburg",
-    "addressRegion": "NW",
-    "postalCode": "47169",
-    "addressCountry": "DE"
-  },
-  "telephone": "+49 203 401160",
-  "url": "https://praxisemir.de",
-  "openingHours": [
-    "Mo 08:00-11:30",
-    "Mo 14:30-16:30",
-    "Tu 08:00-11:30",
-    "Tu 14:00-16:00",
-    "We 08:00-11:30",
-    "Th 08:00-11:30",
-    "Th 14:30-16:30",
-    "Fr 08:30-11:30"
-  ],
-  "priceRange": "€€",
-  "medicalSpecialty": ["Neurology", "Psychiatry"]
-}
-</script>
+  <meta name="robots" content="index, follow">
 
+  <meta name="google-site-verification"
+        content="wPBLNt_eBxxV8X5c8X1_zSFLOiubaeKDG5broxtYmZs">
+
+  <link rel="canonical" href="https://www.praxisemir.de/">
+  <link rel="sitemap"
+        type="application/xml"
+        title="Sitemap"
+        href="/sitemap.xml">
+
+  <!-- Open Graph -->
+  <meta property="og:title"
+        content="Praxis für Neurologie & Psychiatrie Duisburg">
+  <meta property="og:description"
+        content="Neurologie, Psychiatrie, Diagnostik und ästhetische Medizin in Duisburg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.praxisemir.de/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Praxis Özgür Emir Altuncevahir für Neurologie & Psychiatrie",
+    "url": "https://www.praxisemir.de/",
+    "telephone": "+49 203 401160",
+    "image": "https://www.praxisemir.de/symbol.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kaiser-Friedrich-Straße 39",
+      "addressLocality": "Duisburg",
+      "postalCode": "47169",
+      "addressRegion": "Nordrhein-Westfalen",
+      "addressCountry": "DE"
+    },
+    "medicalSpecialty": [
+      "Neurology",
+      "Psychiatry"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": "08:00",
+        "closes": "11:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": "14:30",
+        "closes": "16:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": "08:00",
+        "closes": "11:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": "14:00",
+        "closes": "16:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Wednesday",
+        "opens": "08:00",
+        "closes": "11:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "08:00",
+        "closes": "11:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "14:30",
+        "closes": "16:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "08:00",
+        "closes": "11:30"
+      }
+    ]
+  }
+  </script>
 
   <style>
+    :root {
+      --blue: #004080;
+      --dark-blue: #003060;
+      --light-blue: #eaf2fb;
+      --background: #f8f9fc;
+      --text: #222;
+      --white: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fc;
-      color: #222;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
     }
 
     header {
-      background-color: #004080;
+      background: var(--blue);
       color: white;
       padding: 2rem 1rem;
+    }
+
+    .header-content {
+      max-width: 1050px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      width: 170px;
+      height: 170px;
+      object-fit: contain;
+    }
+
+    .header-text {
       text-align: center;
     }
 
+    .header-text h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .header-text p {
+      margin: 0.4rem 0;
+    }
+
     nav {
-      background-color: #003060;
+      background: var(--dark-blue);
       text-align: center;
-      padding: 0.75rem;
+      padding: 0.8rem 1rem;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 1rem;
+      margin: 0 0.7rem;
       font-weight: bold;
+      display: inline-block;
     }
 
-    nav a:hover {
+    nav a:hover,
+    nav a:focus {
       text-decoration: underline;
     }
 
     main {
-      padding: 2rem 1rem;
-      max-width: 900px;
+      max-width: 950px;
       margin: auto;
-    }
-
-    h2 {
-      color: #004080;
-      margin-top: 2rem;
-    }
-
-    .button-link {
-      display: inline-block;
-      background-color: white;
-      color: #004080;
-      border: 2px solid #004080;
-      padding: 0.6rem 1.2rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 1rem;
-      text-decoration: none;
-      margin-top: 1rem;
-    }
-
-    .button-link:hover {
-      background-color: #e6f0ff;
-    }
-
-    ul {
-      padding-left: 1rem;
+      padding: 2rem 1rem;
     }
 
     section {
-      margin-bottom: 2rem;
+      background: white;
+      padding: 1.6rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-top: 0;
+    }
+
+    .aesthetic-box {
+      background: var(--light-blue);
+      border-left: 5px solid var(--blue);
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--blue);
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    .button:hover,
+    .button:focus {
+      background: var(--dark-blue);
+    }
+
+    .job-link {
+      font-weight: bold;
+      color: var(--blue);
     }
 
     iframe {
       border: 0;
       width: 100%;
       height: 400px;
+      border-radius: 8px;
     }
 
-    @media (max-width: 600px) {
-      header, main {
-        padding: 1rem;
+    footer {
+      background: var(--dark-blue);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        padding: 1.5rem 1rem;
       }
 
-      iframe {
-        height: 250px;
+      .logo {
+        width: 130px;
+        height: 130px;
+      }
+
+      .header-text h1 {
+        font-size: 1.6rem;
       }
 
       nav a {
         display: block;
-        margin: 0.5rem 0;
+        margin: 0.45rem 0;
       }
 
-      .button-link {
+      main {
+        padding: 1rem;
+      }
+
+      section {
+        padding: 1.2rem;
+      }
+
+      iframe {
+        height: 280px;
+      }
+
+      .button {
         width: 100%;
         text-align: center;
       }
     }
   </style>
-
 </head>
 
 <body>
-  <header>
-  <div style="display:flex; align-items:center; justify-content:center; gap:50px; flex-wrap:wrap;">
-    <img src="symbol.png" alt="Praxis Symbol" style="width:200px; height:200px;">
-    <div style="text-align:center;">
-      <h1 style="margin:0;">Praxis für Neurologie & Psychiatrie</h1>
-      <p style="margin:4px 0;">Tip Dr. Özgür Emir Altuncevahir – Facharzt für Neurologie</p>
-      <p style="margin:0;">Ihre Gesundheit im Fokus</p>
+
+<header>
+  <div class="header-content">
+
+    <img
+      class="logo"
+      src="symbol.png"
+      alt="Symbol der Praxis Özgür Emir Altuncevahir">
+
+    <div class="header-text">
+      <h1>Praxis für Neurologie &amp; Psychiatrie</h1>
+
+      <p>
+        <strong>Tip Dr. Özgür Emir Altuncevahir</strong><br>
+        Facharzt für Neurologie
+      </p>
+
+      <p>Ihre Gesundheit im Fokus</p>
     </div>
+
   </div>
 </header>
 
+<nav aria-label="Hauptnavigation">
+  <a href="#leistungen">Leistungen</a>
+  <a href="aesthetik.html">Ästhetische Medizin</a>
+  <a href="#sprechzeiten">Sprechzeiten</a>
+  <a href="#kontakt">Kontakt</a>
+  <a href="stellenangebote.html">Stellenangebote</a>
+</nav>
 
-  <nav>
-    <a href="#leistungen">Leistungen</a>
-    <a href="#sprechzeiten">Sprechzeiten</a>
-    <a href="#kontakt">Kontakt</a>
-    <a href="stellenangebote.html">Stellenangebote</a>
-  </nav>
+<main>
 
-  <main>
-    <section id="leistungen">
-      <h2>Leistungen</h2>
-      <p>In unserer neurologisch-psychiatrischen Praxis werden alle Störungen und Erkrankungen behandelt:</p>
-      <p><strong>Psychiatrie:</strong> Depressionen, Angststörungen, Demenzen, Persönlichkeitsstörungen, Schizophrenien.</p>
-      <p><strong>Neurologie:</strong> Epilepsien, Morbus Parkinson, Multiple Sklerose, Engpasssyndrome, Restless-Legs-Syndrom, radikuläre Syndrome, neuromuskuläre Erkrankungen, Kopf- und andere Schmerzsyndrome, Schwindel, Tinnitus.</p>
-      <p><strong>Diagnostik:</strong> Elektromyogramm (EMG), Elektroenzephalogramm (EEG), evozierte Potentiale (VEP, AEP, SEP, MEP), Polygraphie, Ultraschall.</p>
-      <a href="stellenangebote.html">Psychiater/in (m/w/d) in Duisburg gesucht</a><br >
-      <a href="stellenangebote.html" class="button-link">Stellenangebote ansehen</a>
-    </section>
+  <section id="leistungen">
+    <h2>Neurologie &amp; Psychiatrie</h2>
 
-    <section id="sprechzeiten">
-      <h2>Sprechzeiten</h2>
-      <ul>
-        <li><strong>Montag:</strong> 08:00–11:30 & 14:30–16:30</li>
-        <li><strong>Dienstag:</strong> 08:00–11:30 & 14:00–16:00</li>
-        <li><strong>Mittwoch:</strong> 08:00–11:30</li>
-        <li><strong>Donnerstag:</strong> 08:00–11:30 & 14:30–16:30</li>
-        <li><strong>Freitag:</strong> 08:00–11:30</li>
-        <li><strong>Samstag & Sonntag:</strong> geschlossen</li>
-      </ul>
-    </section>
+    <p>
+      In unserer Praxis in Duisburg behandeln wir neurologische und
+      psychiatrische Erkrankungen und führen verschiedene diagnostische
+      Untersuchungen durch.
+    </p>
 
-    <section id="kontakt">
-      <h2>Kontakt & Anfahrt</h2>
-      <p>Kaiser-Friedrich-Straße 39, 47169 Duisburg</p>
-      <p>Telefon: 02 03 / 40 11 60</p>
-      <p>E-Mail: <a href="mailto:-">-</a></p>
-      <p><strong>Parkplätze:</strong> Vor der Praxis vorhanden und unter der Brücke in der Nähe der Praxis</p>
-      <p>
-        <a href="https://www.google.com/maps/place/Kaiser-Friedrich-Straße+39,+47169+Duisburg/" target="_blank" rel="noopener">
-          Parkplätze Lage auf Google Maps
-        </a>
-      </p>
-      <div style="width:100%; max-width:600px; margin-top:1rem;">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.237052486963!2d6.759056276914301!3d51.50464657963653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8959e82118f15%3A0xd498768513f159e3!2sKaiser-Friedrich-Straße+39%2C+47169+Duisburg!5e0!3m2!1sde!2sde!4v1698923456789!5m2!1sde!2sde"
-          style="width:100%; height:100%;"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Praxis Emir Lage auf Google Maps">
-        </iframe>
-      </div>
-    </section>
-  </main>
+    <h3>Psychiatrie</h3>
+
+    <p>
+      Depressionen, Angststörungen, Demenzen, Persönlichkeitsstörungen
+      und Schizophrenien.
+    </p>
+
+    <h3>Neurologie</h3>
+
+    <p>
+      Epilepsien, Morbus Parkinson, Multiple Sklerose,
+      Engpasssyndrome, Restless-Legs-Syndrom, radikuläre Syndrome,
+      neuromuskuläre Erkrankungen, Kopf- und andere Schmerzsyndrome,
+      Schwindel und Tinnitus.
+    </p>
+
+    <h3>Diagnostik</h3>
+
+    <p>
+      Elektromyogramm (EMG), Elektroenzephalogramm (EEG),
+      evozierte Potentiale (VEP, AEP, SEP, MEP), Polygraphie und
+      Ultraschall.
+    </p>
+  </section>
+
+
+  <section class="aesthetic-box">
+    <h2>Ästhetische Medizin</h2>
+
+    <p>
+      Neben unseren neurologischen und psychiatrischen Leistungen bieten
+      wir in unserer Praxis auch ästhetische Behandlungen mit
+      <strong>Botulinumtoxin</strong> und
+      <strong>Hyaluronsäure</strong> an.
+    </p>
+
+    <p>
+      Im Mittelpunkt stehen eine individuelle ärztliche Beratung und
+      eine sorgfältige Beurteilung der persönlichen Voraussetzungen.
+    </p>
+
+    <a class="button" href="aesthetik.html">
+      Mehr über Ästhetische Medizin
+    </a>
+  </section>
+
+
+  <section id="sprechzeiten">
+    <h2>Sprechzeiten</h2>
+
+    <ul>
+      <li><strong>Montag:</strong> 08:00–11:30 &amp; 14:30–16:30</li>
+      <li><strong>Dienstag:</strong> 08:00–11:30 &amp; 14:00–16:00</li>
+      <li><strong>Mittwoch:</strong> 08:00–11:30</li>
+      <li><strong>Donnerstag:</strong> 08:00–11:30 &amp; 14:30–16:30</li>
+      <li><strong>Freitag:</strong> 08:00–11:30</li>
+      <li><strong>Samstag &amp; Sonntag:</strong> geschlossen</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Stellenangebote</h2>
+
+    <p>
+      Wir suchen aktuell eine/n
+      <strong>Facharzt/Fachärztin für Psychiatrie (m/w/d)</strong>
+      zur Verstärkung unseres Teams.
+    </p>
+
+    <a class="job-link" href="stellenangebote.html">
+      Zur Stellenanzeige →
+    </a>
+  </section>
+
+
+  <section id="kontakt">
+    <h2>Kontakt &amp; Anfahrt</h2>
+
+    <p>
+      <strong>Praxis Özgür Emir Altuncevahir</strong><br>
+      Kaiser-Friedrich-Straße 39<br>
+      47169 Duisburg
+    </p>
+
+    <p>
+      <strong>Telefon:</strong>
+      <a href="tel:+49203401160">02 03 / 40 11 60</a>
+    </p>
+
+    <p>
+      <strong>Parkplätze:</strong>
+      Vor der Praxis vorhanden sowie unter der Brücke in der Nähe
+      der Praxis.
+    </p>
+
+    <p>
+      <a
+        href="https://www.google.com/maps/place/Kaiser-Friedrich-Stra%C3%9Fe+39,+47169+Duisburg/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Lage und Parkmöglichkeiten auf Google Maps
+      </a>
+    </p>
+
+    <div style="max-width: 650px; margin-top: 1rem;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.237052486963!2d6.759056276914301!3d51.50464657963653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8959e82118f15%3A0xd498768513f159e3!2sKaiser-Friedrich-Stra%C3%9Fe+39%2C+47169+Duisburg!5e0!3m2!1sde!2sde!4v1698923456789!5m2!1sde!2sde"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Karte zur Praxis Özgür Emir Altuncevahir in Duisburg">
+      </iframe>
+    </div>
+  </section>
+
+
+
+
+</main>
+
+<footer>
+  <p>
+    Praxis Özgür Emir Altuncevahir für Neurologie &amp; Psychiatrie
+  </p>
+
+  <p>
+    <a href="impressum.html">Impressum</a> |
+    <a href="datenschutz.html">Datenschutz</a>
+  </p>
+</footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
+```
